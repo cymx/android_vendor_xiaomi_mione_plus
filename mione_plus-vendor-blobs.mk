@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 	vendor/xiaomi/mione_plus/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/xiaomi/mione_plus/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
 	vendor/xiaomi/mione_plus/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
-	vendor/xiaomi/mione_plus/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/xiaomi/mione_plus/proprietary/lib/libv8.so:obj/lib/libv8.so \
+	vendor/xiaomi/mione_plus/proprietary/lib/libril.so:obj/lib/libril.so \
 
 PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -101,6 +102,7 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/xiaomi/mione_plus/proprietary/bin/usbhub:system/bin/usbhub \
   vendor/xiaomi/mione_plus/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+  vendor/xiaomi/mione_plus/proprietary/bin/rild:system/bin/rild \
   vendor/xiaomi/mione_plus/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
