@@ -159,4 +159,7 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/usr/keylayout/mione-keypad.kl:system/usr/keylayout/mione-keypad.kl \
   vendor/xiaomi/mione_plus/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-  vendor/xiaomi/mione_plus/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so
+  vendor/xiaomi/mione_plus/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/liblocSDK_2.5OEM.so:system/lib/liblocSDK_2.5OEM.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libxt_v01.so:system/lib/libxt_v01.so
