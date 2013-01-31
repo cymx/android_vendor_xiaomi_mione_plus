@@ -163,3 +163,17 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
   vendor/xiaomi/mione_plus/proprietary/lib/liblocSDK_2.5OEM.so:system/lib/liblocSDK_2.5OEM.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libxt_v01.so:system/lib/libxt_v01.so
+
+# omx
+PRODUCT_COPY_FILES += \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxVenc.so:system/lib/libOmxVenc.so \
+  vendor/xiaomi/mione_plus/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so
